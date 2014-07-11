@@ -4,5 +4,7 @@
     <string name="app_name">Harinezumi</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">FinishApplication</string>
-
+    <string name="title_activity_select_amimal">SelectAmimal</string>
+    <string name="animal1">Animal1</string>
+    <string name="animal2">Animal2</string>
 </resources>
