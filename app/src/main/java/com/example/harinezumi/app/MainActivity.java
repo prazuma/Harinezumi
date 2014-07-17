@@ -9,7 +9,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.ImageView;
 
 
 public class MainActivity extends ActionBarActivity {//動物選ぶの
@@ -28,7 +27,27 @@ public class MainActivity extends ActionBarActivity {//動物選ぶの
     }
 
     public void Animal1(View v){
-        Intent intent = new Intent(MainActivity.this,SelectAnimal.class);
+        Intent intent = new Intent(MainActivity.this,BearAction.class);
+        startActivity(intent);
+    }
+
+    public void Animal2(View v){
+        Intent intent = new Intent(MainActivity.this,MonkeyAction.class);
+        startActivity(intent);
+    }
+
+    public void Animal3(View v){
+        Intent intent = new Intent(MainActivity.this,MouseAction.class);
+        startActivity(intent);
+    }
+
+    public void Animal4(View v){
+        Intent intent = new Intent(MainActivity.this,PigAction.class);
+        startActivity(intent);
+    }
+
+    public void Animal5(View v){
+        Intent intent = new Intent(MainActivity.this,TigerAction.class);
         startActivity(intent);
     }
 
@@ -48,7 +67,7 @@ public class MainActivity extends ActionBarActivity {//動物選ぶの
         // as you specify a parent activity in AndroidManifest.xml.
         int id = item.getItemId();
         if (id == R.id.action_settings) {
-            return true;
+            moveTaskToBack(true);
         }
         return super.onOptionsItemSelected(item);
     }

@@ -7,7 +7,7 @@
     android:paddingLeft="@dimen/activity_horizontal_margin"
     android:paddingRight="@dimen/activity_horizontal_margin"
     android:paddingTop="@dimen/activity_vertical_margin"
-    tools:context="com.example.harinezumi.app.SelectAnimal$PlaceholderFragment">
+    tools:context="com.example.harinezumi.app.MonkeyAction$PlaceholderFragment">
         <TextView
             android:id="@+id/touch_info_text"
             android:layout_width="fill_parent"

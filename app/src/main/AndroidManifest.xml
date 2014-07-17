@@ -17,8 +17,24 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".SelectAnimal"
-            android:label="@string/title_activity_select_amimal" >
+        android:name=".MonkeyAction"
+        android:label="@string/title_monkey" >
+    </activity>
+        <activity
+            android:name=".BearAction"
+            android:label="@string/title_bear" >
+        </activity>
+        <activity
+            android:name=".MouseAction"
+            android:label="@string/title_mouse" >
+        </activity>
+        <activity
+            android:name=".PigAction"
+            android:label="@string/title_pig" >
+        </activity>
+        <activity
+            android:name=".TigerAction"
+            android:label="@string/title_tiger" >
         </activity>
     </application>
 

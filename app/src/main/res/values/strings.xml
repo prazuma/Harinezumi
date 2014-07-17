@@ -4,7 +4,14 @@
     <string name="app_name">Harinezumi</string>
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">FinishApplication</string>
-    <string name="title_activity_select_amimal">SelectAmimal</string>
-    <string name="animal1">Animal1</string>
-    <string name="animal2">Animal2</string>
+    <string name="title_bear">Bear</string>
+    <string name="title_monkey">Monkey</string>
+    <string name="title_mouse">Mouse</string>
+    <string name="title_pig">Pig</string>
+    <string name="title_tiger">Tiger</string>
+    <string name="animal1">BEAR</string>
+    <string name="animal2">MONKEY</string>
+    <string name="animal3">MOUSE</string>
+    <string name="animal4">PIG</string>
+    <string name="animal5">TIGER</string>
 </resources>
